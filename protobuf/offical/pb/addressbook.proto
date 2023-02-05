@@ -1,9 +1,9 @@
 syntax = "proto3";
-package protobufgo;
+package grpcgo;
 
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/lzzzzl/protobuf-go/offical/pb";
+option go_package = "github.com/lzzzzl/grpc-go/protobuf/offical/pb";
 
 message Person {
     string name = 1;
